@@ -1,0 +1,12 @@
+.navbar {
+    background-color: var(--Cor-Secundaria);
+}
+
+.navbar-brand {
+    color: var(--Branco);
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+    gap: 1rem;
+}

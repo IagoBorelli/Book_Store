@@ -1,0 +1,121 @@
+.content {
+    display: flex;
+}
+.mostPopular {
+    width: 40%;
+    margin-left: 1%;
+    
+}
+
+
+
+.MP-Title h1 {
+    font-size: 1.5em;
+    color: white;
+}
+
+.all {
+    
+    width: 60%;
+}
+
+.all hr {
+    width: 100%;
+    margin-top: -1.8%;
+    border: 3px solid var(--Border);
+}
+
+.All-Title {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.All-Title h1 {
+    font-size: 1.5em;
+    color: white;
+}
+
+.All-Title ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin-right: 10%;
+}
+
+.All-Title ul li {
+    font-size: 1.2em;
+    color: white;
+}
+
+a {
+    height: 40px;
+    text-decoration: none;
+    color: white;
+    padding: 2%;
+}
+
+a li:hover {
+    color: var(--Azul-Claro);
+    border-bottom: 5px solid var(--Azul-Claro);
+}
+
+.scroll-container {
+    width: 90%;
+    /* Largura do elemento */
+    height: 48vh;
+    /* Altura do elemento */
+    overflow-y: auto;
+    /* Somente a rolagem vertical */
+    overflow-x: hidden;
+    /* Desabilita a rolagem horizontal */
+}
+
+.mangaTier {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: 200px;
+    background-color: var(--Cor-Terciaria);
+    border-bottom: 1px solid var(--Border);
+}
+
+.capa {
+    width: 140%;
+    height: 100%;
+    float: left;
+}
+
+.capa img {
+    width: 90%;
+    height: 100%;
+    
+}
+
+.manga-button {
+    margin-left: 55%;
+    margin-top: 5%;
+    width: 120px;
+    padding: 1%;
+    border-radius: 100px;
+    background-color: var(--Azul-Claro);
+    border: none;
+    color: var(--Branco);
+    font-weight: bolder;
+    text-shadow: #000 1px 1px 1px;  
+}
+                   
+
+.about {
+    color: var(--Branco);
+}
+
+.about h2 {
+    font-size: 1.5em;
+}
+
+.about p {
+    font-size: 0.8em;
+    width: 90%;
+}
